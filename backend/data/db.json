@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "isim": "artun",
+      "filmler": [
+        "deneme",
+        "deneme"
+      ]
+    },
+    {
+      "id": "2",
+      "isim": "artun",
+      "filmler": [
+        "deneme",
+        "deneme"
+      ]
+    },
+    {
+      "id": "2",
+      "isim": "süpersin",
+      "filmler": [
+        "deneme",
+        "deneme"
+      ]
+    }
+  ]
+}

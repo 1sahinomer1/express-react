@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Hello Express Backend Uygulaması",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon src/main.js",
+    "start": "cross-env NODE_ENV=production node ."
+  },
+  "author": "Ömer Şahin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*",
+      "node_modules"
+    ]
+  }
+}
