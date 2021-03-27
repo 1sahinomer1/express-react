@@ -1,10 +1,18 @@
+@import "https://raw.githubusercontent.com/jonathantneal/system-font-css/gh-pages/system-font.css";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #3a3833 0%, #9239e6 100%);
+  background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink)
+    fixed;
+  font: normal 1em system-ui, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  overflow: hidden;
 }
 .website {
   display: flex;
@@ -12,4 +20,37 @@ body {
   align-items: center;
   width: 90%;
   margin: auto;
+  margin-top: 8em;
+  .add {
+    form {
+      background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink);
+      display: flex;
+      flex-direction: column;
+      input {
+        margin: 1em;
+        font: inherit;
+        padding: 0.2em 0.5em;
+        text-align: center;
+      }
+      button {
+        width: 15em;
+        height: 2em;
+        margin-left: 1.1em;
+        margin-bottom: 1em;
+        background-color: dodgerblue;
+        color: #fff;
+      }
+    }
+  }
+  .view {
+    h2 {
+      text-align: center;
+      margin: 1em;
+      color: deeppink;
+    }
+    .listMovie {
+      background-color: dodgerblue;
+      margin: 1em;
+    }
+  }
 }
