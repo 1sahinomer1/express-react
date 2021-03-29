@@ -7,8 +7,8 @@ function View({ movies }) {
           {movies.map((movie) => {
             return (
               <div className="listMovie">
-                <p>Author : {movie.id}</p>
-                <p>Movie Name :{movie.isim}</p>
+                <p>Author id: {movie.id}</p>
+                <p>Movie Name: {movie.isim}</p>
                 <p>Movies : {movie.filmler}</p>
               </div>
             );
