@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 function Filter({ movies }) {
   return (
@@ -6,9 +6,6 @@ function Filter({ movies }) {
       <h2 style={{ textAlign: "center", color: "white", marginBottom: "1em" }}>
         Search
       </h2>
-      <div>
-          
-      </div>
     </div>
   );
 }

@@ -7,6 +7,20 @@
         "deneme",
         "deneme"
       ]
+    },
+    {
+      "id": "2",
+      "isim": "mehmet",
+      "filmler": [
+        "saban"
+      ]
+    },
+    {
+      "id": "3",
+      "isim": "ali",
+      "filmler": [
+        "kolpacino"
+      ]
     }
   ]
 }
